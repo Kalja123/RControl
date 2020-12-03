@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For Keyboard
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+RControl	KEYWORD1
+RControlWifi	KEYWORD1
+RControlBluetooth	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+listen	KEYWORD2
+RX_TX	KEYWORD2
+pinA	KEYWORD2
+pinD	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
