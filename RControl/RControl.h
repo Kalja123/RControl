@@ -1,4 +1,4 @@
-#ifndef RControl_h // если библиотека Button не подключена
+#ifndef RControl_h 
 #define RControl_h
 #include <Arduino.h>
 
@@ -13,7 +13,7 @@ String sendToUno(String command, const int timeout);
 };
 class RControlWifi :public RControl{
   public:
-    init(long speed=115200,String Ip="192.168.5.1", String Port="1001");  // конструктор
+    init(long speed=115200,String Ip="192.168.5.1", String Port="1001"); 
 	void listen();
  private:
     void ACommands(String message);
@@ -25,7 +25,7 @@ String sendToWifi(String command, const int timeout);
 };
 class RControlBluetooth:public RControl {
   public:
-     init(long speedd=9600);    // конструктор  
+     init(long speedd=9600);    
 	void listen();
  private:
  void ACommands(String message);
