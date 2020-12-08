@@ -21,7 +21,7 @@ while (!wifiSerial) {
 sendToWifi("AT+CWMODE=2",responseTime); // configure as access point
   sendToWifi("AT+CIPAP_DEF=\""+Ip+"\"",responseTime); // get ip address
   sendToWifi("AT+CIPMUX=1",responseTime); // configure for multiple connections
-  sendToWifi("AT+CIPSERVER=1,"+Port,responseTime); // turn on server on port 80
+  sendToWifi("AT+CIPSERVER=1,"+Port,responseTime); // turn on server on port 1001
 
   sendToUno("Wifi connection is running!",responseTime);
 
