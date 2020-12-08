@@ -28,6 +28,7 @@ The library can work with any of the networks. Each of the networks has its own 
 
 
 In mobile app create new TCP with default data (Ip="192.168.5.1", Port="1001") or your data.
+Your WiFi module will be a access point, connect to it in smartphone settings.
 
 ## Bluetooth 
 1.	In beginning, you must add the library to your project. _**#include <RControl.h>**_
